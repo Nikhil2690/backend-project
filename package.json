@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "a basic backend app to learn js backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -16,5 +17,8 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
