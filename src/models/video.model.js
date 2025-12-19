@@ -9,19 +9,19 @@ const videoSchema = new Schema(
         },
         thumbnail: {
             type: String,
-            requird: true
+            required: true
         },
         title: {
             type: String,
-            requird: true
+            required: true
         },
         description: {
             type: String,
-            requird: true
+            required: true
         },
          duration: {
             type: String,
-            requird: true
+            required: true
         },
          views: {
             type: Number,
